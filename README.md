@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Complete Image Steganography Project (Python)
 
 This is a Python conversion of the structure and intended workflow in the uploaded C project (`main.c`, `encode.c`, `encode.h`, `common.h`, and `types.h`). It preserves the original `#*` magic marker and the C-style metadata order.
@@ -81,3 +82,7 @@ py main.py -d reference_images\cover_01_stego.bmp recovered_message.txt
 - This method hides data but does **not encrypt** it. Anyone who knows the format can extract it.
 - Use uncompressed 24-bit BMP images. Do not resize, edit, or recompress the encoded image.
 - The scanner examines BMP files recursively and saves each valid recovered file to the chosen output folder.
+=======
+# Image-Steganography-LSB-Python
+Developed a Python-based image steganography system using LSB encoding to hide secret text files in BMP images. Implemented marker-based detection to identify encoded images among multiple reference images and automated the extraction of hidden messages into TXT files.
+>>>>>>> 9ed7c2f9a96d41e5dc191a2f553b45abdac0e020
