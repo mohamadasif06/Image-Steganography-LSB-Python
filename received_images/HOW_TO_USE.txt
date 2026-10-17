@@ -1,0 +1,4 @@
+This folder starts with 30 ordinary BMP images. After encoding, copy stego.bmp here, then run:
+py main.py -s received_images recovered_messages
+
+Do not resize or edit the encoded image.
